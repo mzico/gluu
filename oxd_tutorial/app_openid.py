@@ -2,6 +2,7 @@
 
 # Gluu Server OpenID authorization/authentication Flask Example
 # Deployment:
+# Install python-pip: apt install python-pip
 # Intsall flask and python openid library: sudo pip install flask oic==0.15.1
 # Create cert.pem and cert.key: openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 365
 # Set variables my_host, op_host, and contact below
